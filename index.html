@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Activity 2</title>
+    <style>
+        img {
+            width: 300px;
+            margin-left: 2em;
+        }
+
+        tr, td {
+            border: 1px solid black;
+        }
+        button {
+            margin: 1em 0;
+        }
+    </style>
 </head>
 <body>
-    hello world
+    <!-- images -->
+    <span>
+        <h1>Monkey Images</h1>
+        <img src="https://news.gsu.edu/files/2019/10/monkey-800x600.jpg" alt="tongue out monkey">
+        <img src="https://www.rainforesttrust.org/app/uploads/2022/07/ecuador-common-woolly-monkey-shutterstock.jpeg" alt="bald monkey">
+        <img src="https://pasa.org/wp-content/uploads/2021/03/Vervet-Monkey-Foundation-credit-Kyle-2.jpg" alt="baby monkey">
+    </span>
+    <hr>
+
+    <!-- table -->
+    <table style="border: solid 2px; text-align: center; margin: 2em 0;">
+        <h1 style="margin-bottom: -0.5em;">Table</h1>
+
+        <tr style="background-color: lightgrey;">
+            <th>Day of the Week</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thurdsay</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr>
+            <td>Morning</td>
+            <td>Quantitative Method Class</td>
+            <td>Project Management Class</td>
+            <td>Information Assurance and Security</td>
+            <td>Free time</td>
+            <td>Project Management Class</td>
+            <td>System Analysis Design Class</td>
+            <td>Family Time</td>
+        </tr>
+        <tr>
+            <td>Afternoon</td>
+            <td>Free Time</td>
+            <td>Professional Elective Class</td>
+            <td>Financial Management Information Systems Class</td>
+            <td>Webdevelopment Lecture Class</td>
+            <td>Professsional Elective Class</td>
+            <td>Free Time</td>
+            <td>Church Service</td>
+        </tr>
+        <tr>
+            <td>Evening</td>
+            <td>Professional Elective Class</td>
+            <td>Web Development Labratory Class</td>
+            <td>Web Development Labratory Class</td>
+            <td>Church Service</td>
+            <td>Free Time</td>
+            <td>Church Service</td>
+            <td>Free Time</td>
+        </tr>
+
+    </table>
+    <hr>
+
+    <!-- form -->
+    <section>
+        <h1>Form</h1>
+
+        <h2>Thank you for choosing us!</h2>
+        <p>leave some feedback for our improved service on your next order!</p>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="name@domain.com">
+        </div>
+
+        <div>
+            <label for="feedBack">Feedback</label>
+            <br>
+            <textarea name="feedback" id="feedBack" placeholder="Enter service feedback here..." rows="5" cols="35"></textarea>
+        </div>
+
+        <div>
+            <p>How did you found out about us?</p>
+
+            <input type="radio" id="tiktok" name="foundUs">
+            <label for="tiktok">Tiktok</label>
+            <input type="radio" id="facebook" name="foundUs">
+            <label for="facebook">Facebook</label>
+            <input type="radio" id="instagram" name="foundUs">
+            <label for="instagram">Instagram</label>
+            <input type="radio" id="recommended" name="foundUs">
+            <label for="recommended">Friend Recommendation</label>
+        </div>
+
+        <button>Submit Feedback</button>
+    </section>
+    <hr>
+
+    <!-- footer -->
+    <footer>
+        <p>Thank you for viewing my Activity 2</p>
+    </footer>
 </body>
 </html>
